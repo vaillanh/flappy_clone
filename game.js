@@ -2,7 +2,7 @@ var game = new Phaser.Game(400, 490, Phaser.AUTO, "game");
 
 var mainState = {
   preload: function () {
-    game.stage.backgroundColor = "#71c5cf";
+    game.stage.backgroundColor = "#FF6A5E";
     bird =
       "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEXSvicAAABogyUZAAAAGUlEQVR4AWP4DwYHMOgHDEDASCN6lMYV7gChf3AJ/eB/pQAAAABJRU5ErkJggg==";
     pipe =
